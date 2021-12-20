@@ -1,0 +1,9 @@
+[Unit]
+Description=Rasa web server API
+
+[Service]
+ExecStart=/opt/rasa-init-for-botfront/init_rasa_api.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

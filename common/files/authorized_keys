@@ -1,0 +1,1 @@
+Add here Salt-Master public ssh-key and other ssh-keys if needed these will be added to minion authorized_keys when run common state

@@ -1,0 +1,9 @@
+[Unit]
+Description=Botfront web server
+
+[Service]
+ExecStart=/opt/botfront/bundle/init_botfront.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
